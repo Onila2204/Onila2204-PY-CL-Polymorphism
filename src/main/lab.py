@@ -23,6 +23,10 @@ class Shape:
 class Circle(Shape):
     def __init__(self, radius):
         self.radius = radius
+
+    def area(self) :
+
+        return math.pi * self.radius * self.radius
     """
 
     To do: Write an area() method for the Circle class to calculate and return the area of the circle.
@@ -41,6 +45,10 @@ class Rectangle(Shape):
     def __init__(self, width, height):
         self.width = width
         self.height = height
+    
+    def area(self):
+
+        return self.width * self.height
 
     """
     To do: Write an area() method for the Rectangle class to calculate and return the area of the rectangle.
@@ -52,4 +60,4 @@ class Rectangle(Shape):
     Returns:
     - float: The area of the rectangle.
     """
-    # Write you code here
+   
